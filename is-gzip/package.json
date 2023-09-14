@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "is-gzip@^1.0.0",
+        "scope": null,
+        "escapedName": "is-gzip",
+        "name": "is-gzip",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/app/node_modules/decompress-targz"
+    ]
+  ],
+  "_from": "is-gzip@>=1.0.0 <2.0.0",
+  "_id": "is-gzip@1.0.0",
+  "_inCache": true,
+  "_location": "/is-gzip",
+  "_npmUser": {
+    "name": "kevva",
+    "email": "kevinmartensson@gmail.com"
+  },
+  "_npmVersion": "1.4.23",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "is-gzip@^1.0.0",
+    "scope": null,
+    "escapedName": "is-gzip",
+    "name": "is-gzip",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/decompress-targz"
+  ],
+  "_resolved": "https://registry.npmjs.org/is-gzip/-/is-gzip-1.0.0.tgz",
+  "_shasum": "6ca8b07b99c77998025900e555ced8ed80879a83",
+  "_shrinkwrap": null,
+  "_spec": "is-gzip@^1.0.0",
+  "_where": "/app/node_modules/decompress-targz",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "bugs": {
+    "url": "https://github.com/kevva/is-gzip/issues"
+  },
+  "dependencies": {},
+  "description": "Check if a Buffer/Uint8Array is a GZIP file",
+  "devDependencies": {
+    "ava": "0.0.4",
+    "mocha": "^1.18.2",
+    "read-chunk": "^1.0.0"
+  },
+  "dist": {
+    "shasum": "6ca8b07b99c77998025900e555ced8ed80879a83",
+    "tarball": "https://registry.npmjs.org/is-gzip/-/is-gzip-1.0.0.tgz",
+    "integrity": "sha512-rcfALRIb1YewtnksfRIHGcIY93QnK8BIQ/2c9yDYcG/Y6+vRoJuTWBmmSEbyLLYtXm7q35pHOHbZFQBaLrhlWQ==",
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEYCIQDz2TVWSjOTagL9xLLtUJvSuv3XzHL4II5FLuwycZU8WwIhANLK6BD642gDzNprCJRYffFYJJGbfXjzf9poB3VPN+th"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "be4085dfd55db9f19c7af8341558e29d2ce44837",
+  "homepage": "https://github.com/kevva/is-gzip",
+  "keywords": [
+    "archive",
+    "buffer",
+    "check",
+    "detect",
+    "gzip",
+    "type",
+    "uint8array"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kevva",
+      "email": "kevinmartensson@gmail.com"
+    }
+  ],
+  "name": "is-gzip",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevva/is-gzip.git"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "version": "1.0.0"
+}
